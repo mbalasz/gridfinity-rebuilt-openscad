@@ -52,6 +52,10 @@ enable_zsnap = false;
 /* [Features] */
 // the type of tabs
 style_tab = 1; //[0:Full,1:Auto,2:Left,3:Center,4:Right,5:None]
+// height of tab (yaxis, measured from inner wall)
+d_tabh = 15.85; 
+// width of tab
+d_tabw = 42; 
 // how should the top lip act
 style_lip = 0; //[0: Regular lip, 1:remove lip subtractively, 2: remove lip and retain height]
 // scoop weight percentage. 0 disables scoop, 1 is regular scoop. Any real number will scale the scoop. 
